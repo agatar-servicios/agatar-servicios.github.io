@@ -464,11 +464,11 @@ nav.main-menu {
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-	color: #000;
+	color: #3b6928;
 }
 
 .menu-area-main li.active a {
-	color: #000;
+	color: #3b6928;
 }
 
 .right_cart_section {
@@ -1050,7 +1050,7 @@ nav.main-menu {
 	font-size: 16px;
 	display: block;
 	font-weight: 500;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 }
 
@@ -1643,7 +1643,7 @@ input[type="radio"] .styled:checked+label::after {
 ---------------------------------------------------------------------*/
 
 .header {
-	background: #0fc690;
+	background: #ffffff;
 	padding: 40px 0px;
 	padding-bottom: 35px;
 }
@@ -1680,8 +1680,8 @@ input[type="radio"] .styled:checked+label::after {
 
 .banner-main .carousel-caption a {
 	text-transform: uppercase;
-	border: #0fc690 solid 1px;
-	background: #0fc690;
+	border: #3b6928 solid 1px;
+	background: #3b6928;
 	width: 196px;
 	padding: 12px 0;
 	display: inline-block;
@@ -1762,7 +1762,7 @@ input[type="radio"] .styled:checked+label::after {
 	font-weight: bold;
 	color: #050303;
 	line-height: 46px;
-	border-bottom: #0fc690 solid 1px;
+	border-bottom: #3b6928 solid 1px;
 	margin: 0 auto;
 	margin-bottom: 0px;
 	margin-bottom: 20px;
@@ -1797,8 +1797,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .about .img-box a:hover {
-	border: #0fc690 solid 1px;
-	background: #0fc690;
+	border: #3b6928 solid 1px;
+	background: #3b6928;
 }
 
 
@@ -1858,7 +1858,7 @@ input[type="radio"] .styled:checked+label::after {
 	font-weight: bold;
 	color: #050303;
 	line-height: 46px;
-	border-bottom: #0fc690 solid 1px;
+	border-bottom: #3b6928 solid 1px;
 	margin: 0 auto;
 	margin-bottom: 0px;
 	margin-bottom: 20px;
@@ -1873,7 +1873,7 @@ input[type="radio"] .styled:checked+label::after {
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	background: #0fc690d6;
+	background: #3b6928d6;
 	align-items: center;
 	margin: 0 15px;
 }
@@ -1962,7 +1962,7 @@ img.zoom {
 	padding: 0px 0px 6px 0px;
 	font-size: 40px;
 	font-weight: bold;
-	border-bottom: #0fc690 solid 1px;
+	border-bottom: #3b6928 solid 1px;
 	color: hsl(0, 25%, 2%);
 	line-height: 46px;
 	margin-bottom: 0px;
@@ -1993,7 +1993,7 @@ img.zoom {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-	background: #0fc690;
+	background: #3b6928;
 	color: #fff;
 }
 
@@ -2027,14 +2027,14 @@ img.zoom {
 }
 
 .read-more a:hover {
-	background: #0fc690;
+	background: #3b6928;
 }
 
 
 /** end download section **/
 
 .testimonial {
-	background: #0fc690;
+	background: #3b6928;
 	padding: 60px 0px;
 }
 
@@ -2071,7 +2071,7 @@ img.zoom {
 }
 
 .carousel-caption.relat h3 {
-	color: #0fc690;
+	color: #3b6928;
 	font-size: 20px;
 	text-transform: uppercase;
 	line-height: 20px;
@@ -2095,7 +2095,7 @@ img.zoom {
 #testimonial_slider .carousel-control-prev:focus,
 #testimonial_slider .carousel-control-next:focus {
 	color: #fff;
-	background: #0fc690;
+	background: #3b6928;
 	width: 50px;
 	height: 50px;
 }
@@ -2169,8 +2169,8 @@ img.zoom {
 }
 
 .testimonial .contact .send:hover {
-	background-color: #0fc690;
-	border: #0fc690 solid 1px;
+	background-color: #3b6928;
+	border: #3b6928 solid 1px;
 	color: #fff;
 }
 
@@ -2179,7 +2179,7 @@ img.zoom {
 }
 
 .footer {
-	background: #023023;
+	background: #3b6928;
 	padding-top: 55px;
 }
 
@@ -2257,8 +2257,8 @@ ul.contant_icon li {
 }
 
 ul.contant_icon li img {
-	width: 32px;
-	height: 32px;
+	width: 40px;
+	height: 40px;
 }
 
 .footer .newsletter h3 {
@@ -2284,8 +2284,8 @@ ul.contant_icon li img {
 
 .footer .address .submit-btn {
 	padding: 5px 29px;
-	border: #0fc690 solid 1px;
-	background: #0fc690;
+	border: #3b6928 solid 1px;
+	background: #3b6928;
 	color: #fff;
 	font-weight: 500;
 	font-size: 20px;
@@ -2296,14 +2296,21 @@ ul.contant_icon li img {
 	border: #000 solid 1px;
 }
 
-.footer .address a {
+.footer .address i a {
     color: #fff;
     font-size: 15px;
     font-weight: 500;
+	
+	text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 
-.footer .address a:hover {
-    color: #0fc690;
+.footer .address i a:hover {
+	background-size: 100% 2px;
 }
 
 .copyright {
@@ -2321,7 +2328,7 @@ ul.contant_icon li img {
 }
 
 .copyright a:hover {
-	color: #0fc690
+	color: #3b6928
 }
 
 
@@ -2403,7 +2410,7 @@ ul.contant_icon li img {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-	background: #0fc690;
+	background: #3b6928;
 	color: #fff;
 }
 
